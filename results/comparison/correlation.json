@@ -1,0 +1,78 @@
+{
+  "em": {
+    "rho": 0.6228,
+    "pvalue": 0.0
+  },
+  "f1": {
+    "rho": 0.8098,
+    "pvalue": 0.0
+  },
+  "bleu1": {
+    "rho": 0.7686,
+    "pvalue": 0.0
+  },
+  "rouge_l": {
+    "rho": 0.7686,
+    "pvalue": 0.0
+  },
+  "bertscore": {
+    "rho": 0.8299,
+    "pvalue": 0.0
+  },
+  "factscore": {
+    "rho": 0.4358,
+    "pvalue": 0.0
+  },
+  "ragas_faithfulness": {
+    "rho": -0.1935,
+    "pvalue": 0.0537
+  },
+  "ragas_relevancy": {
+    "rho": 0.5414,
+    "pvalue": 0.0
+  },
+  "ragas_ctx_precision": {
+    "rho": 0.4145,
+    "pvalue": 0.0
+  },
+  "ragas_ctx_recall": {
+    "rho": 0.572,
+    "pvalue": 0.0
+  },
+  "ais": {
+    "rho": 0.3709,
+    "pvalue": 0.0001
+  },
+  "rgb_noise": {
+    "rho": 0.7402,
+    "pvalue": 0.0
+  },
+  "rgb_integration": {
+    "rho": 0.7402,
+    "pvalue": 0.0
+  },
+  "rgb_neg_rejection": {
+    "rho": 0.0,
+    "pvalue": 1.0
+  },
+  "geval_consistency": {
+    "rho": -0.2599,
+    "pvalue": 0.009
+  },
+  "geval_relevance": {
+    "rho": 0.0001,
+    "pvalue": 0.9994
+  },
+  "geval_coherence": {
+    "rho": -0.1557,
+    "pvalue": 0.1219
+  },
+  "geval_correctness": {
+    "rho": 0.0605,
+    "pvalue": 0.5496
+  },
+  "geval_avg": {
+    "rho": 0.0303,
+    "pvalue": 0.7646
+  }
+}

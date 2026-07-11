@@ -1,0 +1,13 @@
+{
+  "n_samples": 100,
+  "n_human_shared": 100,
+  "source": "cached annotated_sample + comparison predictions",
+  "h_fact_mean": 0.26,
+  "factscore_mean": 0.4325,
+  "h_fact_vs_human": 0.624,
+  "factscore_vs_human": 0.4358,
+  "routing_gain_score": -0.1725,
+  "routing_gain_rho": 0.1882,
+  "score_gap_hfact_minus_factscore": -0.1725,
+  "human_alignment_gain": 0.1882
+}

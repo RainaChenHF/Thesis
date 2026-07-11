@@ -1,0 +1,21 @@
+{
+  "em": 0.164,
+  "f1": 0.215,
+  "bleu1": 0.1982,
+  "rouge_l": 0.2123,
+  "bertscore": 0.2168,
+  "factscore": 0.4418,
+  "ragas_faithfulness": 0.93,
+  "ragas_relevancy": 0.0835,
+  "ragas_ctx_precision": 0.153,
+  "ragas_ctx_recall": 0.304,
+  "ais": 0.2168,
+  "rgb_noise": 0.21,
+  "rgb_integration": 0.21,
+  "rgb_neg_rejection": 0.0,
+  "geval_consistency": 0.9488,
+  "geval_relevance": 0.8996,
+  "geval_coherence": 0.9696,
+  "geval_correctness": 0.8512,
+  "geval_avg": 0.9173
+}

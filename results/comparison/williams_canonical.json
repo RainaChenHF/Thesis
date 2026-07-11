@@ -1,0 +1,10 @@
+{
+  "source": "canonical_v3_4run.jsonl (4-run per-sample mean)",
+  "n": 100,
+  "rho_v3_vs_human": 0.8107,
+  "rho_bertscore_vs_human": 0.8299,
+  "rho_v3_vs_bertscore": 0.676,
+  "williams_t": -0.5041,
+  "williams_p": 0.6153,
+  "tied": true
+}

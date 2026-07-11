@@ -1,0 +1,95 @@
+{
+  "_provenance": "h_fact_v3.rho is the 4-run per-sample-averaged canonical value (runs: 0.7898/0.8114/0.8016/0.8001; per-sample mean rho=0.8107). Single-run mean=0.8007 std=0.0088. The earlier 0.8249 in results/summary_v3.json was a single lucky run, now superseded. Williams vs BERTScore on canonical: t=-0.50 p=0.615 (tied). See results/comparison/williams_canonical.json and results/correlation_v3/canonical_v3_4run.jsonl.",
+  "n_samples": 100,
+  "n_runs": 4,
+  "h_fact_v1": {
+    "rho": 0.624,
+    "pvalue": 0.0
+  },
+  "h_fact_v3": {
+    "rho": 0.8107,
+    "pvalue": 0.0,
+    "single_run_mean": 0.8007,
+    "single_run_std": 0.0088,
+    "runs": [0.7898, 0.8114, 0.8016, 0.8001]
+  },
+  "f1": {
+    "rho": 0.8098,
+    "pvalue": 0.0
+  },
+  "binary_pct_v3": 81.0,
+  "unique_scores_v3": [
+    0.0,
+    0.3,
+    0.35,
+    0.7,
+    0.85,
+    1.0
+  ],
+  "n_unique_scores_v3": 6,
+  "fp_v1": 9,
+  "fp_v3": 10,
+  "delta_r2": 0.1376,
+  "delta_r2_fp_corrected": 0.0379,
+  "bootstrap_ci": [
+    0.041,
+    0.282
+  ],
+  "bootstrap_pct_positive": 100.0,
+  "williams_vs_bertscore": {
+    "rho_v3": 0.8107,
+    "rho_bertscore": 0.8299,
+    "rho_v3_bertscore": 0.676,
+    "t": -0.5041,
+    "p": 0.6153,
+    "tied": true
+  },
+  "blend_optimal_alpha": 0.5,
+  "blend_optimal_rho": 0.9044,
+  "blend_results": [
+    {
+      "alpha": 0.0,
+      "rho": 0.8001
+    },
+    {
+      "alpha": 0.1,
+      "rho": 0.8666
+    },
+    {
+      "alpha": 0.2,
+      "rho": 0.8687
+    },
+    {
+      "alpha": 0.3,
+      "rho": 0.885
+    },
+    {
+      "alpha": 0.4,
+      "rho": 0.8979
+    },
+    {
+      "alpha": 0.5,
+      "rho": 0.9044
+    },
+    {
+      "alpha": 0.6,
+      "rho": 0.9027
+    },
+    {
+      "alpha": 0.7,
+      "rho": 0.9017
+    },
+    {
+      "alpha": 0.8,
+      "rho": 0.9003
+    },
+    {
+      "alpha": 0.9,
+      "rho": 0.8992
+    },
+    {
+      "alpha": 1.0,
+      "rho": 0.8098
+    }
+  ]
+}

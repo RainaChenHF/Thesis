@@ -1,0 +1,28 @@
+{
+  "inter_metric_corr": {
+    "spearman_rho": 0.5822,
+    "spearman_p": 0.0,
+    "pearson_r": 0.5619,
+    "pearson_p": 0.0,
+    "n": 100
+  },
+  "incremental_validity": {
+    "n": 100,
+    "r2_f1_only": 0.71,
+    "r2_f1_hfact": 0.7338,
+    "delta_r2": 0.0238,
+    "beta_hfact": 0.7219,
+    "t_hfact": 2.945,
+    "p_hfact": 0.004,
+    "sig_hfact": true
+  },
+  "quadrants": {
+    "thresh": 0.3,
+    "ideal_n": 18,
+    "lucky_halluc_n": 7,
+    "correct_para_n": 9,
+    "both_wrong_n": 66,
+    "avg_human_ideal": 4.556,
+    "avg_human_lucky": 4.857
+  }
+}

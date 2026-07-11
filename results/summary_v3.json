@@ -1,0 +1,31 @@
+{
+  "_provenance": "Canonical 4-run per-sample-averaged values (runs: 0.7898/0.8114/0.8016/0.8001; per-sample mean rho=0.8107; single-run mean=0.8007 std=0.0088). Replaces the earlier 0.8249 single lucky run. Mirrors results/correlation_v3/summary_v3.json. Williams vs BERTScore on canonical: t=-0.50 p=0.615 (tied).",
+  "h_fact_v1_rho": 0.624,
+  "h_fact_v3_rho": 0.8107,
+  "h_fact_v3_single_run_mean": 0.8007,
+  "h_fact_v3_single_run_std": 0.0088,
+  "h_fact_v3_runs": [0.7898, 0.8114, 0.8016, 0.8001],
+  "f1_rho": 0.8098,
+  "bertscore_rho": 0.8299,
+  "delta_rho_vs_v1": 0.1867,
+  "r2_f1_only": 0.71,
+  "r2_f1_plus_v3": 0.8462,
+  "dr2_v3": 0.1362,
+  "dr2_v3_fp_corrected": 0.0379,
+  "bootstrap_ci_95": [
+    0.036,
+    0.284
+  ],
+  "bootstrap_pct_gt0": 100.0,
+  "williams_vs_bertscore": {
+    "t": -0.5041,
+    "p": 0.6153,
+    "tied": true
+  },
+  "blend_optimal_alpha": 0.5,
+  "blend_optimal_rho": 0.9044,
+  "fp_v1": 9,
+  "fp_v3": 10,
+  "binary_pct": 80.5,
+  "unique_scores": 6
+}

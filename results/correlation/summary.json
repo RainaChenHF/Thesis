@@ -1,0 +1,34 @@
+{
+  "em": {
+    "rho": 0.6228,
+    "pvalue": 0.0
+  },
+  "f1": {
+    "rho": 0.8098,
+    "pvalue": 0.0
+  },
+  "joint_hit": {
+    "rho": 0.2246,
+    "pvalue": 0.024694
+  },
+  "table_hit": {
+    "rho": 0.2119,
+    "pvalue": 0.034339
+  },
+  "passage_hit": {
+    "rho": 0.0815,
+    "pvalue": 0.420389
+  },
+  "epp_f1": {
+    "rho": 0.2903,
+    "pvalue": 0.003388
+  },
+  "h_fact": {
+    "rho": 0.624,
+    "pvalue": 0.0
+  },
+  "maa": {
+    "rho": 0.4298,
+    "pvalue": 8e-06
+  }
+}

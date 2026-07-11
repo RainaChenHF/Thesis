@@ -1,0 +1,226 @@
+{
+  "alpha": 0.05,
+  "n_metrics": 26,
+  "alpha_bonferroni": 0.0019230769230769232,
+  "per_metric": {
+    "em": {
+      "rho": 0.6228,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "f1": {
+      "rho": 0.8098,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "bleu1": {
+      "rho": 0.7686,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "rouge_l": {
+      "rho": 0.7686,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "bertscore": {
+      "rho": 0.8299,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "factscore": {
+      "rho": 0.4358,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "ragas_faithfulness": {
+      "rho": -0.1935,
+      "p_raw": 0.0537,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "ragas_relevancy": {
+      "rho": 0.5414,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "ragas_ctx_precision": {
+      "rho": 0.4145,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "ragas_ctx_recall": {
+      "rho": 0.572,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "ais": {
+      "rho": 0.3709,
+      "p_raw": 0.0001,
+      "source": "comparison",
+      "p_bonf": 0.0026000000000000003,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "rgb_noise": {
+      "rho": 0.7402,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "rgb_integration": {
+      "rho": 0.7402,
+      "p_raw": 0.0,
+      "source": "comparison",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "rgb_neg_rejection": {
+      "rho": 0.0,
+      "p_raw": 1.0,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "geval_consistency": {
+      "rho": -0.2599,
+      "p_raw": 0.009,
+      "source": "comparison",
+      "p_bonf": 0.23399999999999999,
+      "sig_raw_05": true,
+      "sig_bonf": false
+    },
+    "geval_relevance": {
+      "rho": 0.0001,
+      "p_raw": 0.9994,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "geval_coherence": {
+      "rho": -0.1557,
+      "p_raw": 0.1219,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "geval_correctness": {
+      "rho": 0.0605,
+      "p_raw": 0.5496,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "geval_avg": {
+      "rho": 0.0303,
+      "p_raw": 0.7646,
+      "source": "comparison",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "joint_hit": {
+      "rho": 0.2246,
+      "p_raw": 0.024694,
+      "source": "ours",
+      "p_bonf": 0.6420440000000001,
+      "sig_raw_05": true,
+      "sig_bonf": false
+    },
+    "table_hit": {
+      "rho": 0.2119,
+      "p_raw": 0.034339,
+      "source": "ours",
+      "p_bonf": 0.892814,
+      "sig_raw_05": true,
+      "sig_bonf": false
+    },
+    "passage_hit": {
+      "rho": 0.0815,
+      "p_raw": 0.420389,
+      "source": "ours",
+      "p_bonf": 1.0,
+      "sig_raw_05": false,
+      "sig_bonf": false
+    },
+    "epp_f1": {
+      "rho": 0.2903,
+      "p_raw": 0.003388,
+      "source": "ours",
+      "p_bonf": 0.088088,
+      "sig_raw_05": true,
+      "sig_bonf": false
+    },
+    "h_fact": {
+      "rho": 0.624,
+      "p_raw": 0.0,
+      "source": "ours",
+      "p_bonf": 0.0,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "maa": {
+      "rho": 0.4298,
+      "p_raw": 8e-06,
+      "source": "ours",
+      "p_bonf": 0.000208,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    },
+    "h_fact_v3": {
+      "rho": 0.8106809411020856,
+      "p_raw": 1.6252087962827165e-24,
+      "source": "ours_v3",
+      "p_bonf": 4.225542870335063e-23,
+      "sig_raw_05": true,
+      "sig_bonf": true
+    }
+  },
+  "williams_v3_vs_bertscore": {
+    "comparison": "H-FAct v3 vs BERTScore (human as reference)",
+    "n": 100,
+    "rho_v3_vs_human": 0.8107,
+    "rho_bertscore_vs_human": 0.8299,
+    "rho_v3_vs_bertscore": 0.676,
+    "t_stat": -0.5041,
+    "p_two_sided": 0.6153,
+    "df": 97,
+    "interpretation": "Two correlations statistically indistinguishable (p > 0.05)"
+  }
+}

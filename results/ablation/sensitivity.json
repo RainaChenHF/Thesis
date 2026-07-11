@@ -1,0 +1,68 @@
+[
+  {
+    "metric": "joint_hit",
+    "label": "JHit@3",
+    "sensitivity_abs": 1.0,
+    "sensitivity_rel": 1.0,
+    "golden": 1.0,
+    "semi_golden": 0.006,
+    "noise": 0.0,
+    "counterfactual": 0.074,
+    "missing": 0.0
+  },
+  {
+    "metric": "epp_f1",
+    "label": "EPP-F1",
+    "sensitivity_abs": 0.9401,
+    "sensitivity_rel": 0.9401,
+    "golden": 1.0,
+    "semi_golden": 0.539,
+    "noise": 0.0599,
+    "counterfactual": 0.9437,
+    "missing": 0.0615
+  },
+  {
+    "metric": "f1",
+    "label": "F1",
+    "sensitivity_abs": 0.1451,
+    "sensitivity_rel": 0.9952,
+    "golden": 0.1458,
+    "semi_golden": 0.1097,
+    "noise": 0.0007,
+    "counterfactual": 0.0911,
+    "missing": 0.0007
+  },
+  {
+    "metric": "h_fact",
+    "label": "H-FAct (Ours)",
+    "sensitivity_abs": 0.133,
+    "sensitivity_rel": 1.0,
+    "golden": 0.133,
+    "semi_golden": 0.085,
+    "noise": 0.0,
+    "counterfactual": 0.142,
+    "missing": 0.0
+  },
+  {
+    "metric": "em",
+    "label": "EM",
+    "sensitivity_abs": 0.13,
+    "sensitivity_rel": 1.0,
+    "golden": 0.13,
+    "semi_golden": 0.1,
+    "noise": 0.0,
+    "counterfactual": 0.05,
+    "missing": 0.0
+  },
+  {
+    "metric": "maa",
+    "label": "MAA (Ours)",
+    "sensitivity_abs": 0.006,
+    "sensitivity_rel": 0.0909,
+    "golden": 0.066,
+    "semi_golden": 0.06,
+    "noise": 0.06,
+    "counterfactual": 0.088,
+    "missing": 0.066
+  }
+]

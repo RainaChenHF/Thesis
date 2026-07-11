@@ -1,0 +1,31 @@
+{
+  "n": 100,
+  "thresh": 0.3,
+  "inter_metric_corr": {
+    "spearman_rho": 0.6071,
+    "spearman_p": 0.0,
+    "pearson_r": 0.5776,
+    "pearson_p": 0.0
+  },
+  "incremental_validity_v3": {
+    "r2_f1_only": 0.71,
+    "r2_f1_plus_v3": 0.8462,
+    "delta_r2": 0.1362
+  },
+  "quadrants_v3": {
+    "thresh": 0.3,
+    "ideal_n": 22,
+    "lucky_halluc_n": 3,
+    "correct_para_n": 10,
+    "both_wrong_n": 65,
+    "avg_human_ideal": 4.7727,
+    "avg_human_lucky": 3.6667,
+    "avg_human_correct_para": 2.9,
+    "avg_human_both_wrong": 1.0769
+  },
+  "quadrants_v1_for_compare": {
+    "lucky_halluc_n": 7,
+    "avg_human_lucky": 4.8571
+  },
+  "interpretation_note": "v3 'lucky hallucination' quadrant (high F1, low H-FAct v3): 3 samples with avg human score 3.667. If avg_human_lucky is materially HIGHER than avg_human_ideal (4.773), it does NOT mean H-FAct is wrong — it means H-FAct is identifying cases the F1 token-overlap calls correct but where evidence support is missing, while humans (here, LLM-simulated) still give credit for the plausible answer. Stage-three discussion in §10.4 should report both quadrants explicitly."
+}

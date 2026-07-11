@@ -1,0 +1,22 @@
+{
+  "h_fact_v1_rho": 0.624,
+  "h_fact_v2.1_rho": 0.6389,
+  "f1_rho": 0.8098,
+  "delta_rho": 0.0149,
+  "r2_f1_only": 0.71,
+  "r2_f1_plus_v1": 0.7338,
+  "r2_f1_plus_v2.1": 0.7598,
+  "dr2_v1": 0.0238,
+  "dr2_v2.1": 0.0498,
+  "fp_v1": 8,
+  "fp_v2.1": 8,
+  "binary_pct": 98.0,
+  "n_facts_mean": 0.41,
+  "relevant_count": 32,
+  "em1_marked_irrelevant": 3,
+  "v2_dist": {
+    "0.0": 76,
+    "0.5": 2,
+    "1.0": 22
+  }
+}

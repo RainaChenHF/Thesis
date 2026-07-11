@@ -1,0 +1,38 @@
+{
+  "n": 100,
+  "note": "Regenerated for thesis Table 6.4 (Steiger routing) + Williams v1/v3. Canonical Williams(v3) and Bonferroni live in results/comparison/{williams_canonical.json, multiple_comparison.json}.",
+  "steiger_routing_h_fact_vs_factscore": {
+    "z": 2.7919,
+    "p_two_tailed": 0.00524,
+    "rho_xh": 0.624,
+    "rho_yh": 0.4358,
+    "rho_xy": 0.6681,
+    "n": 100,
+    "interpretation": "Significant difference"
+  },
+  "williams_v1_h_fact_vs_bertscore": {
+    "t": -3.8456,
+    "df": 97,
+    "p_two_tailed": 0.00012,
+    "rho_xh": 0.624,
+    "rho_yh": 0.8299,
+    "rho_xy": 0.5422,
+    "n": 100,
+    "interpretation": "Significant difference"
+  },
+  "williams_v3_h_fact_vs_bertscore": {
+    "t": -0.5041,
+    "df": 97,
+    "p_two_tailed": 0.614204,
+    "rho_xh": 0.8107,
+    "rho_yh": 0.8299,
+    "rho_xy": 0.676,
+    "n": 100,
+    "interpretation": "No significant difference (statistical tie)",
+    "source": "h_fact_v3 single-merge (canonical 4-run mean in williams_canonical.json: t=-0.5041,p=0.6153)"
+  },
+  "method_refs": {
+    "steiger": "Steiger (1980), Psychological Bulletin 87(2):245-251",
+    "williams": "Williams (1959), Regression Analysis. Wiley"
+  }
+}
