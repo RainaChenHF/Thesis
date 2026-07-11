@@ -99,18 +99,3 @@ Large JSONL files with full predictions, raw contexts, or intermediate annotated
 - Traditional answer-level metrics such as EM, F1, and BERTScore are not replaced by this framework; Hybrid Evaluation adds diagnostic grounding-oriented signals.
 - Results should be interpreted within the controlled HybridQA setup used in the thesis.
 
-## Security and privacy
-
-This public package excludes:
-
-```text
-.env
-API keys
-local logs
-raw dataset files
-large generated JSONL outputs
-local absolute-path configuration
-```
-
-Before making the repository public, verify that no credentials or private files have been committed in the repository history.
-
